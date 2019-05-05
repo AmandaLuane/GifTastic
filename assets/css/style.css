@@ -1,7 +1,59 @@
-/* .row {
-    margin: 10px 10px 10px 10px;
+
+
+#titleImg {
+    height: 100px;
+    margin-bottom: 30px;
+    color: rgb(218, 62, 205);
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    padding: 20px;
+    font-size: 80px;
+}
+
+body {
+    background-image: url(..//image/maxresdefault.jpg);
+}
+
+/* button {
+    margin: 10px;
+    color: white;
+    background: red;
+    border-radius: 2;
 } */
-/* 
-.container {
+
+.subject {
     margin: 5px;
-} */
+    color: white;
+    background: red;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    padding: 5px;
+}
+
+#buttonHolder {
+    background: black;
+}
+
+#buttonTitle {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.search-Form {
+    background-color: black;
+    padding: 5px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(102, 226, 199);
+}
+
+.card {
+    margin: 20px;
+
+}

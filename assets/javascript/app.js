@@ -58,9 +58,9 @@ $(document).on("click", ".subject", function() {
             //ratings
             var rating = results[i].rating;
             var p = $("<p>").text("Rating: " + results[i].rating);
+
             //image tag
             var actionImage = $("<img>");
-            //creating src
             actionImage.attr("src", results[i].images.original_still.url);
             actionImage.attr("data-still", results[i].images.original_still.url);
             actionImage.attr("data-animate", results[i].images.original.url);
@@ -103,6 +103,7 @@ $("#search-Btn").on("click", function(event) {
     var subject = $("#search-Input").val().trim();
     buttonArray.push(subject);
     console.log(subject);
+    $("#search-Input").val("");
     renderButtons();
 
 });

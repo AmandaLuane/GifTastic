@@ -5,7 +5,8 @@
     <title>GifTastic</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Carter+One|Gentium+Book+Basic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
     <!-- <script src="assets/javascript/app.js"></script> -->
@@ -14,35 +15,47 @@
 
 <body>
 
+    <h1 id="titleImg"> GifTastic Actions</h1>
+
     <div class="container">
-            <button class="subject" data-name="skipping">skipping</button>
-        <!-- Row1 -->
-        <div class="row">
-            <div class="col-sm-12" id="buttonHolder">
-                <!-- button Holder -->
+            <!-- <button class="subject" data-name="skipping">skipping</button> -->
+    <div class="row">
+        <div class="col-9">
+        <div class="card">
+            <!-- button Holder -->
+            <h5 id="buttonTitle" class="card-title">CLICK A BUTTON</h5>
+            <div class="card-body" id="buttonHolder">
             </div>
         </div>
+        </div>
+
+        <div class="col-auto">
+        <form id="search-Form">
+            <!--Gift Input Box-->
+            <div class="search-Form">
+                <label for="search-Input">ENTER A ACTION WORD</label>
+                <br>
+                <input type="text" id="search-Input">
+            </div>
+        
+            <div class="search-Form">
+                <input type="submit" id="search-Btn" value="Submit">
+            </div>
+        </form>
+        </div>
+    </div>
+
+
                 
         <!--Row2 -->
         <div class="row">
-            <div class="col-sm-8" id="gifHolder">
-                <!--Gifs Show up Here-->
-            </div>
-            <!-- <div class="col-sm-4" id="Search-form">
-                    <input type="text" id="search-Input"><br>
-                    <input id="search-Btn" type="submit" class="btn btn-primary" value="Submit">
-            </div> -->
-
-            <form id="search-Form">
-                <div class="search-Form">
-                    <label for="search-Input">Add a Fighting Type</label>
-                    <input type="text" id="search-Input"> 
+            <div class="col-12">
+                <div class="card">
+                    <!-- button Holder -->
+                    <h5 id="buttonTitle" class="card-title">ENJOY YOUR GIFTASIC ACTIONS</h5>
+                    <div class="card-body" id="gifHolder">
+                    </div>
                 </div>
-    
-                <div class="search-Form">
-                    <input type="submit" id="search-Btn" value="Submit">
-                </div>
-            </form>
 
         </div>
 
