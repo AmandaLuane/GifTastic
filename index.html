@@ -15,39 +15,41 @@
 <body>
 
     <div class="container">
+            <button class="subject" data-name="skipping">skipping</button>
         <!-- Row1 -->
         <div class="row">
             <div class="col-sm-12" id="buttonHolder">
                 <!-- button Holder -->
-                <button class="subject" data-name="running">running</button>
-                <button class="subject" data-name="skipping">skipping</button>
             </div>
         </div>
                 
-        <!-- Row2 -->
-        <!-- <div class="row">
-            <div class="col-sm-8" id="gifHolder"></div>
-            <div class="col-sm-4" id="Search-form">
+        <!--Row2 -->
+        <div class="row">
+            <div class="col-sm-8" id="gifHolder">
+                <!--Gifs Show up Here-->
+            </div>
+            <!-- <div class="col-sm-4" id="Search-form">
                     <input type="text" id="search-Input"><br>
                     <input id="search-Btn" type="submit" class="btn btn-primary" value="Submit">
-            </div>
+            </div> -->
 
-        </div> -->
+            <form id="search-Form">
+                <div class="search-Form">
+                    <label for="search-Input">Add a Fighting Type</label>
+                    <input type="text" id="search-Input"> 
+                </div>
+    
+                <div class="search-Form">
+                    <input type="submit" id="search-Btn" value="Submit">
+                </div>
+            </form>
 
-        <form id="search-Form">
-            <div class="search-Form">
-                <label for="search-Input">Add a Fighting Type</label>
-                <input type="text" id="search-Input"> 
-            </div>
-
-            <div class="search-Form">
-                <input type="submit" id="search-Btn" value="Submit">
-            </div>
-        </form>
+        </div>
 
     </div>
 
     <script src="assets/javascript/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
     
 
 
